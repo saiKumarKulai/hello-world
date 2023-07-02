@@ -1,0 +1,10 @@
+name: raise pr
+on: [push]
+jobs:
+  Raise_pr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: raise pr
+        run: bash ./script.bash
+
+      
